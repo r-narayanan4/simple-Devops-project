@@ -39,11 +39,14 @@ This project is a simple DevOps project that aims to automate the continuous int
       - we need to install a `deploy to container` plugin. This plugin is used to deploy on Tomcat server which we are using.
 
           - Install Maven Plugin without restart
-             > `- Manage Jenkins > Manage Plugins > Available > deploy to container`
+             
+              - `Manage Jenkins > Manage Plugins > Available > deploy to container`
 
             - Setup credentials
-             > - `Manage Jenkins > Manage credentials > (global) > Add credentials`
-                 - Username: `deployer`
+             
+              - `Manage Jenkins > Manage credentials > (global) > Add credentials`
+                 
+                - Username: `deployer`
                  - Password: `********`
                  - id: `Tomcat_user`
                  - Description: `Tomcat user to deploy on tomcat server`
